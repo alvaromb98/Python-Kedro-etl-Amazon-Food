@@ -9,3 +9,7 @@
 # (transcoding), templating and a way to reuse arguments that are frequently repeated. See more here:
 # https://kedro.readthedocs.io/en/stable/05_data/01_data_catalog.html
 #
+
+amazon_food:
+  type: spark.SparkDataSet
+  filepath: data/01_raw/amazonFood.csv
