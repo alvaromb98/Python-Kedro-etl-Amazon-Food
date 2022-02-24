@@ -11,5 +11,5 @@
 #
 
 amazon_food:
-  type: spark.SparkDataSet
+  type: pandas.CSVDataSet
   filepath: data/01_raw/amazonFood.csv
