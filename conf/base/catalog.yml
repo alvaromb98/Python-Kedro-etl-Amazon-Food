@@ -13,3 +13,8 @@
 amazon_food:
   type: pandas.CSVDataSet
   filepath: data/01_raw/amazonFood.csv
+
+
+amazon_food_spark:
+  type: spark.SparkDataSet
+  filepath: data/01_raw/amazonFood.csv
